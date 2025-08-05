@@ -6,49 +6,40 @@ body {
   color: white;
   text-align: center;
 }
-
-.logo {
-  margin-top: 20px;
-  width: 120px;
-}
-
 header {
-  padding: 30px 20px;
-}
-
-.buttons a {
-  text-decoration: none;
-  padding: 10px 20px;
-  margin: 10px;
-  background-color: #f7b733;
-  color: #00203f;
-  font-weight: bold;
-  border-radius: 5px;
-  display: inline-block;
-}
-
-.sobre, .diferenciais {
   padding: 40px 20px;
 }
-
-.diferenciais .grid {
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+.buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 24px;
+  background-color: #ffc107;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+section {
+  padding: 40px 20px;
+}
+.grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
-  margin-top: 20px;
+  gap: 10px;
 }
-
-.diferenciais .grid div {
-  background-color: #003366;
-  padding: 15px 25px;
-  border-radius: 8px;
-  font-weight: bold;
+.grid div {
+  background-color: #014f86;
+  padding: 15px 20px;
+  border-radius: 5px;
+  min-width: 200px;
 }
-
 footer {
-  margin-top: 40px;
+  background-color: #00111f;
   padding: 20px;
-  font-size: 0.9em;
-  background-color: #001020;
+  font-size: 14px;
 }
