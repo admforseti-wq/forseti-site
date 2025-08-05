@@ -1,0 +1,58 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0B1F3A;
+    color: white;
+}
+header {
+    text-align: center;
+    padding: 50px 20px 30px;
+    background-color: #0B1F3A;
+}
+header h1 {
+    font-size: 3em;
+    color: #D4AF37;
+    margin: 0;
+}
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+.cta-buttons button {
+    background-color: #D4AF37;
+    color: #0B1F3A;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+section h2 {
+    color: #D4AF37;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+.feature {
+    background-color: #11294A;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+footer {
+    background-color: #0B1F3A;
+    color: #bbb;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
